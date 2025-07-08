@@ -1,0 +1,42 @@
+.navDiv{
+ border: 1px solid black;
+ height: 60px;
+ display: flex;
+ align-items: center;
+ background-color: rgb(236, 200, 200);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#lakcol{
+    color: rgb(87, 18, 52);
+}
+
+.navChild {
+    display: flex;
+  
+}
+
+.navU1{
+    display: flex;
+    align-items: center;
+}
+
+.navItems {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navItems>a {
+    text-decoration: none;
+    color: black;
+}
+
+.dp-i{
+    height: 50px;
+}
+
+
