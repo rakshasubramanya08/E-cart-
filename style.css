@@ -6,6 +6,8 @@
  background-color: rgb(236, 200, 200);
  justify-content: space-between;
  margin-top: 20px;
+ box-shadow: 0 5px 5px rgb(1,1,1,0.5),
+ 0 5px 5px rgb(1,1,1,0.5);
 }
 
 *{
@@ -45,6 +47,16 @@
 #dp-id{
     background-color: white;
     border-radius: 50px;
+}
+
+#dp-cart{
+    position: absolute;
+    top: 0;
+    margin-top: 24px;
+    margin-left: 28px;
+    font-size: large;
+    background-color: aliceblue;
+    border-radius: 50% solid white;
 }
 
 
