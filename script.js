@@ -1,6 +1,8 @@
 let container = document.getElementById('cardContainer');
 let count =  document.getElementById('count');
-
+let cartImg = document.getElementById('cart-i');
+let uiP = document.getElementById('productUI');
+let uiC = document.getElementById('myCartUi');
 
 
 let url = 'https://dummyjson.com/products';
@@ -57,3 +59,6 @@ function updateCartCount() {
   count.innerText = length ;
 }
 
+cartImg.addEventListener('click',()=>{
+
+})
