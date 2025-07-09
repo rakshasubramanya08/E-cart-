@@ -89,3 +89,39 @@
     background-color: rgb(179, 141, 84);
     color: white;
 }
+.cardContainer {
+    margin-top: 40px;
+}
+
+.card{
+    
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 5px 20px rgb(1,1, 1, 0.5),
+    0 10px 10px rgb(1,1, 1, 0.5);
+}
+
+.img-c{
+    height: 200px;
+}
+
+.right-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+
+}
+
+#childRyt{
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+#childRyt:hover{
+    cursor: pointer;
+}
